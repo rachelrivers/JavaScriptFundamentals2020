@@ -1,10 +1,12 @@
-# What You Will Be Installing - Windows
+# Installation Guide - Windows
+
+## What You Will Be Installing
 
 1. Microsoft Teams
 2. Slack
 3. Visual Studio Code (Recommended) and Plugins
 4. Git for Windows
-5. Node.js and NPM Packages
+5. Node.js (latest) and NPM Packages
 6. Chrome or Firefox (Recommended)
 
 ## Microsoft Teams

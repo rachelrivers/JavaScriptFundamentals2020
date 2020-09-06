@@ -1,11 +1,13 @@
-# What You Will Be Installing - Mac OSX
+# Installation Guide - Mac
+
+## What You Will Be Installing
 
 1. Microsoft Teams
 2. Slack
 3. Xcode
 4. Homebrew
 5. Git
-6. Node.js and NPM Packages
+6. Node.js (latest) and NPM Packages
 7. Visual Studio Code (Recommended) and Plugins
 8. Chrome or Firefox (Recommended)
 
@@ -29,12 +31,12 @@ Xcode can be found in the App Store. It will take around 50 minutes to install, 
 
 [Homebrew](https://brew.sh/) is a package manager for Mac, meaning that it will help make installing and managing a lot of command line software easier. We will be installing Node.js with Homebrew to avoid permission issues.
 
-If you already have Homebrew installed or if you are not sure whether you have it installed, type `brew -v` in your terminal. If you see a response like _Homebrew 2.1.9_, then you have it installed. Update homebrew with `brew update` and then you can skip ahead to the next section. If you get a _command not found_ error, you will need to install Homebrew.
+If you already have Homebrew installed or if you are not sure whether you have it installed, type `brew -v` in your terminal. If you see a response like _Homebrew 2.4.16_, then you have it installed. Update homebrew with `brew update` and then you can skip ahead to the next section. If you get a _command not found_ error, you will need to install Homebrew.
 
 To install Homebrew, type this in your terminal:
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 Hit enter when the installation prompts you to hit enter. At some point, you may be requested to enter your password. The password is the same password you use to login with your computer.
@@ -65,7 +67,10 @@ When it's finished, type `git --version` to confirm that it has installed.
 
 Node.js is a JavaScript runtime engine. Basically, it allows you to run JavaScript programs outside of the browser.
 
-You will need to have the latest _Current_ version of Node installed as of September 2020 (14.9). If you already have Node.js installed, type `node -v`. If you do not have the latest version, see https://flaviocopes.com/how-to-update-node/ for instructions on how to upgrade.
+You will need to have the latest stable version of Node installed as of September 2020 (14.9). If you already have Node.js installed, type `node -v`. If you do not have the latest version, you can do one of the following to things:
+
+1. [Upgrade Node.js with using whatever you installed Node.js with.](https://flaviocopes.com/how-to-update-node/) If you have Node.js projects on your computer and you wish to maintain them, this could break your existing projects.
+2. Install multiple version of Node.js on your computer with NVM. See the _Node Version Manager (NVM)_ section of the [Linux Installaton Guide](InstallationGuideLinuxAndNVM.md).
 
 You should also update NPM. You can update it with:
 
