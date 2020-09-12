@@ -63,7 +63,7 @@ When you finish installing, you should see Git Bash on your computer. Open it, t
 
 Node.js is a JavaScript runtime engine. Basically, it allows you to run JavaScript programs outside of the browser.
 
-You will need to have the latest _Current_ version of Node installed as of September 2020 (14.9). If you already have Node.js installed, type `node -v` in Git Bash. If you do not have the latest version, you will need to remove Node.js and reinstall it again.
+You will need to have the latest _Current_ version of Node installed as of September 2020 (14.10). If you already have Node.js installed, type `node -v` in Git Bash. If you do not have the latest version, you will need to remove Node.js and reinstall it again.
 
 If Node.js is up-to-date, you should update NPM. You can update it with:
 
@@ -71,7 +71,7 @@ If Node.js is up-to-date, you should update NPM. You can update it with:
 npm install -g npm@latest
 ```
 
-To install Node.js, go to https://nodejs.org/en/ and click on the _14.9.X Current_ version.
+To install Node.js, go to https://nodejs.org/en/ and click on the _14.10.X Current_ version.
 
 When it finishes downloading, open the downloaded file. Accept the License Agreement and all of the defaults. If you are asked to allow the app to make changes to your device, click on _Yes_.
 

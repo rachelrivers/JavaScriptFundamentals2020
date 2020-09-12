@@ -147,7 +147,7 @@ Restart your terminal. Type `nvm --version`. You should see a version number lik
 
 ## Using NVM
 
-You have NVM installed, but you still need to install Node.js. You will need to have the latest stable version of Node installed as of September 2020 (14.9).
+You have NVM installed, but you still need to install Node.js. You will need to have the latest stable version of Node installed as of September 2020 (14.10).
 
 ```
 nvm install node
@@ -162,13 +162,21 @@ nvm install 10.22.0
 To switch between node versions, you can specify the version.
 
 ```bash
-nvm use 14.9
+nvm use node # latest version installed
+nvm use 10.22.0 # specific version
 ```
 
 If you have a _.nvmrc_ file in your project root, then you do not need to specify the version number from inside your project.
 
 ```bash
 nvm use
+```
+
+However, `nvm use` will only set the node version in the terminal window that you are working in. When you close your terminal window, it will revert to a default version. Here is how you to set the default version:
+
+```bash
+nvm alias default node # latest version installed
+nvm alias default 10.22.0 # specific version
 ```
 
 See more [usage instructions](https://github.com/nvm-sh/nvm#usage) and ["How to Lock down Your Project’s Node Version Using .Nvmrc Or engines"](https://medium.com/@faith__ngetich/locking-down-a-project-to-a-specific-node-version-using-nvmrc-and-or-engines-e5fd19144245).

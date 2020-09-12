@@ -67,7 +67,7 @@ When it's finished, type `git --version` to confirm that it has installed.
 
 Node.js is a JavaScript runtime engine. Basically, it allows you to run JavaScript programs outside of the browser.
 
-You will need to have the latest stable version of Node installed as of September 2020 (14.9). If you already have Node.js installed, type `node -v`. If you do not have the latest version, you can do one of the following to things:
+You will need to have the latest stable version of Node installed as of September 2020 (14.10). If you already have Node.js installed, type `node -v`. If you do not have the latest version, you can do one of the following to things:
 
 1. [Upgrade Node.js with using whatever you installed Node.js with.](https://flaviocopes.com/how-to-update-node/) If you have Node.js projects on your computer and you wish to maintain them, this could break your existing projects.
 2. Install multiple version of Node.js on your computer with NVM. See the _Node Version Manager (NVM)_ section of the [Linux Installaton Guide](InstallationGuideLinuxAndNVM.md).
