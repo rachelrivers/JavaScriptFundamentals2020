@@ -5,6 +5,7 @@
 
 # Students
 
+- Rachel Rivers
 - Kate Turner
 - Michelle Ortiz
 - Adely Fernandez
