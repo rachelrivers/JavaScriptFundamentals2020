@@ -4,4 +4,9 @@
 - Matina Patsos
 
 # Students
-Michael Jones
+
+- Michael Jones
+- Katie Bullock
+- Chai Landau
+- Hillary Wallace
+- Sean Russell
