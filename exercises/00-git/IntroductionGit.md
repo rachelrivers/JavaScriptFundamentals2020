@@ -5,6 +5,7 @@
 
 # Students
 
+- Michelle Ortiz
 - Adely Fernandez
 - Scott Seyrek
 - Michael Jones
