@@ -5,6 +5,7 @@
 
 # Students
 
+- Kate Turner
 - Michelle Ortiz
 - Adely Fernandez
 - Scott Seyrek
