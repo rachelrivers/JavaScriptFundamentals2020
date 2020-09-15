@@ -4,4 +4,10 @@
 - Matina Patsos
 
 # Students
-Scott Seyrek
+
+- Scott Seyrek
+- Michael Jones
+- Katie Bullock
+- Chai Landau
+- Hillary Wallace
+- Sean Russell
