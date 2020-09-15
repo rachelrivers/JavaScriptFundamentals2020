@@ -5,6 +5,7 @@
 
 # Students
 
+- Scott Seyrek
 - Michael Jones
 - Katie Bullock
 - Chai Landau
