@@ -5,6 +5,7 @@
 
 # Students
 
+- Michael Jones
 - Katie Bullock
 - Chai Landau
 - Hillary Wallace
