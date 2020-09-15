@@ -4,5 +4,5 @@
 - Matina Patsos
 
 # Students
-
+- Hillary Wallace
 - Sean Russell
