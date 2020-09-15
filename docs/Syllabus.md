@@ -66,7 +66,7 @@ Most of the communication outside of class will take place on Slack. Please chec
 
 ### Grading
 
-In order to receive a certificate of completion, you must attend at least 80% of classes and you must submit your work. However, we are willing to be flexible in special circumstances. Please contact the program director and your instructors _as soon as possible_ if something serious is preventing you from participating or submitting your work.
+In order to receive a certificate of completion, you must follow the conditions of your Student Learning Contract. You must attend at least 75% of classes and you must submit 80% of your work. However, we are willing to be flexible in special circumstances. Please contact the program director and your instructors _as soon as possible_ if something serious is preventing you from participating or submitting your work.
 
 #### Projects
 
