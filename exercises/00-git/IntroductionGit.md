@@ -4,4 +4,11 @@
 - Matina Patsos
 
 # Students
-Adely Fernandez
+
+- Adely Fernandez
+- Scott Seyrek
+- Michael Jones
+- Katie Bullock
+- Chai Landau
+- Hillary Wallace
+- Sean Russell
