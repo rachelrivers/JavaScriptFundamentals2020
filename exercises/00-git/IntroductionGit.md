@@ -4,5 +4,6 @@
 - Matina Patsos
 
 # Students
-
-Chai Landau
+- Chai Landau
+- Hillary Wallace
+- Sean Russell
