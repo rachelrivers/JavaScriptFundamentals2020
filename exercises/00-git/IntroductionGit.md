@@ -5,6 +5,7 @@
 
 # Students
 
+- Adely Fernandez
 - Scott Seyrek
 - Michael Jones
 - Katie Bullock
