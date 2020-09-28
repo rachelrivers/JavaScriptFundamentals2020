@@ -1,37 +1,38 @@
 function myName() {
   // Create a variable called myName
-  return myName;
+  let myName = rachelRivers;
 }
 
 function setTeachersNames(teachersName) {
   // change code below this line so that we can set the variable.
-  const teachers = null;
-  teachers = teachersName; //  <- this is invalid because teachers is a const. How can we fix this?
+  let teachers = null;
+  teachers = teachersName;
 
-  return teachers;
+  console.log(teachers);
 }
 
 /*** return the sum of both arguments  ***/
 function add(a, b) {
-  let sum;
-
-  return sum;
+  let sum = "a + b";
+  console.log(sum);
 }
 
 /*** Using the increment operator, add a year to the argument and make me older */
 function ageMeByAYear(age) {
-  return age;
+  let age = 29;
+  console.log(++age);
 }
 
 /*** Using the decrement operator make me age decrement by a year  ***/
 function makeMeYoungerByAYear(age) {
-  return age;
+  let age = 29;
+  console.log(--age);
 }
 
 /** Take the argument that will be a string and return an integer  */
 function convertStringToInt(str) {
-  let int;
-  return int;
+  parseInt("10");
+  //10
 }
 
 /*** Using the String method indexOf find the first position of the letter in the name  */
@@ -43,17 +44,16 @@ function convertStringToInt(str) {
  *  return value should be 0
  *
  */
-function getTheCharacterPosition(name, letter) {
-  let characterPosition;
-  return characterPosition;
+function getTheCharacterPosition(rachel, c) {
+  "rachel".indexOf("c");
+  //2
 }
 
 /** Take the argument and return the length of the argument */
 
-function stringLength(str) {
-  let strLength;
-
-  return strLength;
+function stringLength(javaScript) {
+  console.log("javaScript".length);
+  //10
 }
 
 /***  return the last character of the argument
@@ -63,10 +63,9 @@ function stringLength(str) {
  *
  */
 
-function getLastCharacter(str) {
-  let lastCharacter;
-
-  return lastCharacter;
+function getLastCharacter(rachel) {
+  "rachel".substring(5);
+  //l
 }
 
 /** Return the last part of a place name
@@ -81,10 +80,9 @@ function getLastCharacter(str) {
  *    returns Diego
  */
 
-function getLastWordInPlaceName(place) {
-  let newPlace;
-
-  return newPlace;
+function getLastWordInPlaceName(Lake George) {
+  "lake george".substring(5)
+   //george
 }
 
 /***
@@ -110,9 +108,9 @@ function getLargerNumber(arg1, arg2) {
  *
  */
 
-function replaceLastName(fullName, newLastName) {
-  let newFullName;
-  return newFullName;
+function replaceLastName(Emily Rose, Smith) {
+  "Emily Rose".replace("Rose", "Smith");
+  //Emily Smith
 }
 
 /***
@@ -120,10 +118,9 @@ function replaceLastName(fullName, newLastName) {
  *  i.e John smith -> John Smith
  */
 
-function capitalizeLastName(fullName) {
-  let capitalizeLastName;
-
-  return capitalizeLastName;
+function capitalizeLastName(rivers) {
+    const lastName = "rivers"; 
+    capitalizeLastName = lastName[0].toUpperCase() + lastName.substring(1);
 }
 
 /**
