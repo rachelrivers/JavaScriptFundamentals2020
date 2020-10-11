@@ -2,9 +2,9 @@ const chai = require("chai");
 const expect = chai.expect;
 chai.use(require("chai-arrays"));
 
-const { map, doubleValues, extractKey } = require("../../exercises/10-map/map");
+const { map, doubleValues, extractKey } = require("../../exercises/11-map/map");
 
-describe("exercises/10-map/map.js", () => {
+describe("exercises/11-map/map.js", () => {
   describe("map()", () => {
     it("should loop over an array and return an array where each item is the result of a callback", () => {
       let suppliedArr;

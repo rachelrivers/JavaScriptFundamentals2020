@@ -5,9 +5,9 @@ chai.use(require("chai-arrays"));
 const {
   forEach,
   showFirstAndLast,
-} = require("../../exercises/09-for-each/for-each.js");
+} = require("../../exercises/10-for-each/for-each.js");
 
-describe("exercises/09-for-each/for-each.js", () => {
+describe("exercises/10-for-each/for-each.js", () => {
   describe("forEach()", () => {
     it("should loop over an array and apply a callback to each item", () => {
       let numbersDoubled = [];
