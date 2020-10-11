@@ -34,5 +34,9 @@ describe("exercises/09-for-each/for-each.js", () => {
       ]);
       expect(abbreviatedName).to.be.equalTo(["ct", "mt", "tm", "uy"]);
     });
+    it("should use JavaScript's built in .forEach()", () => {
+      const funcStr = showFirstAndLast.toString();
+      expect(funcStr).to.contain(".forEach");
+    });
   });
 });
