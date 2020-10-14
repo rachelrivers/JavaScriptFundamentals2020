@@ -6,7 +6,7 @@ const {
   fearNotLetter,
 } = require("../../exercises/12-challenges/challenges");
 
-describe("01-challenges", () => {
+describe("12-challenges", () => {
   it("Return the length of the longest word in the provided sentence", () => {
     const ans = findLongestWordLength(
       "The quick brown fox jumped over the lazy dog"
