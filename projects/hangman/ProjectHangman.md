@@ -89,7 +89,7 @@ You will either be given a passing or failing grade. You must meet all of the fo
 - After each round, display the answer (the word the computer picked) and the results. The results should be how many games the player won out of the total games played.
 - Display visual feedback in the guessing portion of the game. Show which letter guesses are correct, what letters in what positions are still remaining, what letters the player has guessed and how many guesses are left.
 - Only accept letters _(abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ)_. If a player guesses a special character, it should not count as a guess.
-- Your game must be case insentive. This means that when the player guesses a letter, the computer will treat lower case and upper case versions of a letter as the same character.
+- Your game must be case insensitive. This means that when the player guesses a letter, the computer will treat lower case and upper case versions of a letter as the same character.
 - Only accept one letter at a time. If the player enters more than one letter, only accept the first letter and ignore the rest. For example, if a player types "as", you should treat it like "a".
 - Repeat guesses should not count against the player. For example, if the player has three guesses left, and he has already guessed the letter "a", he should still have three guesses left when he guesses "a" second time.
 - The game will keep on going until the user presses `ctrl + c` to stop. You must include this in your instructions before each round.
