@@ -31,10 +31,12 @@
   <body>
     <section class="bg-dark pt-4 pb-4 text-center">
       <!-- This button should alert the user when clicked on -->
-      <button class="btn btn-success btn-lg">Alert Me!</button>
+      <button class="btn btn-success btn-lg" id="alertMe">Alert Me!</button>
 
       <!-- This button should become disabled and display "Loading ..." when clicked on -->
-      <button class="btn btn-warning btn-lg">Charge My Credit Card</button>
+      <button class="btn btn-warning btn-lg" id="creditButton">
+        Charge My Credit Card
+      </button>
     </section>
 
     <section class="container pt-4 pb-4">
@@ -93,8 +95,9 @@
           class="form-control mb-3"
           placeholder="Enter mystery text here"
           aria-label="Enter mystery text here"
+          id="mysteryText"
         />
-
+        <div id="textBox"></div>
         <!-- Display whatever text the user types in the textbox above inside the <div></div> -->
         <div class="card bg-warning"></div>
       </div>
@@ -103,10 +106,11 @@
     <section class="bg-dark pt-4 pb-1">
       <div class="container">
         <!-- Handle this form -->
-        <form class="form-group">
+        <form class="form-group" id="handleThisForm">
           <div class="input-group">
             <input
               type="search"
+              id="oceanInput"
               placeholder="Search for oceans near Albany, NY"
               aria-label="Search for oceans near Albany, NY"
               class="form-control"
@@ -118,13 +122,13 @@
         </form>
 
         <!-- Display "No results for ___ found" inside of this <p></p> -->
-        <p class="text-white"></p>
+        <p class="text-white" id="oceanOutput"></p>
       </div>
     </section>
 
     <section class="bg-light pt-4 pb-4">
       <div class="d-flex justify-content-center">
-        <form">
+        <form>
           <div class="form-inline">
             <div class="form-check form-check-inline">
               <!-- The "is-invalid" class here makes the "I Agree ..." red. The input should only have this class if the user did not agree to the terms and conditions -->

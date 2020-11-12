@@ -4,10 +4,20 @@
  */
 
 /**
+ *
  * Challenge 1: Alert Me
  * When the clicks on the button that says "Alert Me!", it should display an alert.
  * @see https://developer.mozilla.org/en-US/docs/Web/API/Window/alert
- */
+ */ 
+(function () { 
+
+
+const clickButton = document.querySelector("#alertMe");
+      const handleClick = () => {
+        alert("Alert Me!");
+      };
+      clickButton.addEventListener("click", handleClick);
+
 
 /**
  * Challenge 2: Disable a button that will charge a credit card.
@@ -16,6 +26,17 @@
  * 1. Disable the button when it is clicked.
  * 2. Change the text to say e.g. "Loading ..." once it is clicked.
  */
+
+const disableButton = document.querySelector("#creditButton");
+let disableClick = () => {
+  disableButton.disabled = 'disabled';
+  disableButton.textContent = 'Loading ...';
+};
+
+disableButton.addEventListener("click", disableClick);
+
+
+
 
 /**
  * Challenge 3: Show comments for the news story.
@@ -28,12 +49,25 @@
  * If the comments are open, change the button text from "View Comments" to "Hide Comments".
  */
 
+const showHidden = document.querySelector(".hidden");
+showHidden.classList.remove("hidden");
+
+
+
 /**
  * Challenge 4: Rendering what a user is typing on the page.
  *
  * When the user types inside the textbook labeled "Enter mystery text here",
  * it should display what the user is typing in the <div></div> tags below.
  */
+
+const userText = document.querySelector("#mysteryText"); 
+name.addEventListener("input", event => {
+  console.log(event.target.value);
+});
+
+
+
 
 /**
  * Challenge 5: Display the results of the world's most pointless search engine.
@@ -47,6 +81,19 @@
  * The exercise must be completed with a form handler
  * and you must prevent the page from refreshing when the form is submitted.
  */
+
+document
+.querySelector("#handleThisForm")
+.addEventListener("submit", (event) => {
+ event.preventDefault();
+
+const oceanInput = document.querySelector("#oceanInput");
+console.log(oceanInput.value);
+
+const oceanOutput = document.querySelector("#oceanOutput");
+oceanOutput.textContent = `No results for ${event.currentTarget.value} found`;
+});
+
 
 /**
  * Challenge 6: Agree to the terms and conditions
@@ -69,3 +116,17 @@
  * - Clicking on the "«" and "1" buttons should show everything in data-group="1" and hide everything in data-group="2".
  * - Clicking on the "2" and "»" buttons should show everything in data-group="2" and hide everything in data-group="1".
  */
+
+
+
+
+ if grouptwo contains hidden 
+ grout two claasslist.add hidden
+
+ if groupone classlist contains hidden {
+   groupOne classlist remove hidden
+
+   
+
+
+})();

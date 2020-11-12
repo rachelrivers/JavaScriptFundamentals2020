@@ -21,7 +21,12 @@
  * console.log( calculate(7, 3, subtract) ); // 4
  */
 
-const calculate = (num1, num2, callback) => {};
+const calculate = (num1, num2, callback) => {
+  return {
+  callback(num1,num2);
+    };
+   };
+  
 
 /**
  * Returns the first number in an array that meets a condition.
@@ -47,7 +52,16 @@ const calculate = (num1, num2, callback) => {};
  * console.log( findFirst([4, 500, 30, 2], isNumberTwoDigits) ) // 30
  */
 
-const findFirst = (arrayOfNum, callback) => {};
+const findFirst = (arrayOfNum, callback) => {
+  for (let num of arrayOfNum) {
+  // for (let i = 0; i < array.length; i++) {
+  //   const num = arrayofNum[i]; 
+  if (callback(num)) return num; 
+  }
+};
+
+
+
 
 module.exports = {
   calculate,

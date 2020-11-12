@@ -25,14 +25,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EXERCISES Creating Elements</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
+    <script src="creating-elements.js" defer></script>
     <!--
       Optional: Add any CSS libraries or your own CSS here. For example:
       @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link for external files
       @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style for <style> tags
     -->
   </head>
+
+  <style>
+  
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: hsl(0, 0%, 100%);
+    }
+
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .wrap {
+      height: 350px;
+      border-radius: 10px;
+    }
+
+    .wrap:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+
+    .button-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    button {
+      background-color: #90a8c3;
+      font-size: 20px;
+      padding: 16px;
+      border: 2px solid #90a8c3;
+      color: white;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: white;
+      color: #90a8c3;
+      cursor: pointer;
+    }
+
+    h2,
+    h3 {
+      text-align: center;
+    }
+
+    P {
+      margin: 20px;
+      padding: 20px;
+    }
+  </style>
   <body>
-    <!-- Put your HTML here -->
+    <div>
+      <h2>EXERCISES Creating Elements</h2>
+      <div class="image-wrapper">
+        <img
+          src="https://images.pexels.com/photos/1564506/pexels-photo-1564506.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+          class="wrap"
+          alt="doggie costume"
+        />
+      </div>
+    </div>
+
+    <div id="myToggle">
+      <h3>Can you Toggle/Hide this?</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+        reiciendis commodi at, nostrum placeat suscipit non rerum ex quod, est
+        earum ducimus sunt iure quae consequuntur excepturi maiores delectus
+        quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
+        facere amet repudiandae quod hic vel ipsa eaque excepturi laborum!
+        Omnis, impedit. Iure nesciunt minus in harum ab nam sunt tempore.
+      </p>
+    </div>
+
+    <div class="button-wrap">
+
+      <a href="#"><button id="mybutton">Click if you like dogs</button></a>
+    </div>
+      <p>
+        <input type="checkbox" id="addExtraDog" />
+        <label or="addExtraDog">More Dogs in Costume Please</label>
+      </p>
+      <div class="button-wrap">
+      <p><a href="#"><button id="subButton">Subscribe for Dogs</button></a></p>
+      </div>
+
+    </div>
+    
+
   </body>
 </html>

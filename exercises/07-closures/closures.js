@@ -14,7 +14,16 @@
  *
  * (This is technically not a closure. It is here to prepare you for the next problems.)
  */
-const greeter = () => {};
+
+
+const greeter = () => {
+  return {
+    hello: (name) => {
+      return `Hello ${name}`;
+    },
+};
+};
+
 
 /**
  * As a programmer, I would like to be able to call on a function that returns an object that will allow me to
@@ -49,7 +58,31 @@ const greeter = () => {};
 
 const groceryList = () => {
   let groceryItems = [];
+  return {
+    add: (string) => {
+      groceryItems.push(string);
+      console.log(groceryItems); 
+    },
+    remove: (itemPostion) => {
+      if {
+        typeof itemPosition === "number" &&
+        itemPosition < groceryItems.length
+      } {
+        groceryItems.splice(itemPosition, 1);
+        return groceryItems;
+      } else console.error["You are wrong!"];
+    },
+    getList: () => {
+      return groceryItems;
+    },
+  };
 };
+
+let groceryItems= ["apples", "bananas", "steak"];
+
+list.add("apples"); 
+console.log(list.getList()); 
+
 
 /**
  * Use closures to complete this exercise.
@@ -57,22 +90,46 @@ const groceryList = () => {
  * @returns {Object} an object that has two methods. See comments below.
  */
 const calculator = () => {
+
   /**
    * Create a private variable called "sum"
    * @var {number}
    */
-  /**
+   let sum = 0;   
+   
+   /**
    * Return an object that has two methods:
    *
    * 1. The first is a "setter" function that a.) accepts a parameter of type number and
    *    b.) adds that number to the "sum" above.
    * @param {number}
-   *
-   * 2. The second function is a "getter" function
-   * that should return the value of "sum" above.
-   * @returns {number} the value of sum
-   */
-};
+   **/
+   return {
+    setter: (num) => {
+      let sum = 0;
+      sum = num + sum;
+      console.log(sum);  
+    },
+    getter: () => {
+      console.log(sum);
+      return sum;
+    },
+   }; 
+  };
+
+const calc = calculator();
+calc.setter(5);
+calc.setter(7);
+calc.setter(10);
+console.log(calc.getter()); 
+
+
+  //  * 
+  //  * 2. The second function is a "getter" function
+  //  * that should return the value of "sum" above.
+  //  * @returns {number} the value of sum
+  //  */
+
 
 /**
  * CHALLENGE!
@@ -100,7 +157,25 @@ const calculator = () => {
  * guessRound2(1); // "No more guesses. The answer was 0"
  */
 
-const guessingGame = (numberOfRounds) => {};
+const guessingGame = (numberOfRounds) => {
+
+};
+
+let guessRound1 = guessingGame(5); 
+guessRound1(1);
+guessRound1(8);
+guessRound1(5);
+guessRound1(7);
+
+
+// let guess = 0;
+// const answer = Math.floor(Math.random() * 11);
+// if (guess < answer) return "You're too low!";
+// if (guess > answer) return "You're too high!";
+// if (guess === answer) return "You got it!";
+
+
+
 
 module.exports = {
   greeter,
